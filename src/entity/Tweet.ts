@@ -13,5 +13,5 @@ export class Tweet {
   content: string;
 
   @ManyToOne(() => User, (user) => user.tweets)
-  user: User;
+  user: Promise<User>;
 }

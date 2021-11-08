@@ -16,5 +16,5 @@ export class User {
   age: number;
 
   @OneToMany(() => Tweet, (tweet) => tweet.user)
-  tweets: Tweet;
+  tweets: Promise<Tweet[]>;
 }
