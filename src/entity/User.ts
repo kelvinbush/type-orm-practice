@@ -17,4 +17,7 @@ export class User {
 
   @OneToMany(() => Tweet, (tweet) => tweet.user)
   tweets: Promise<Tweet[]>;
+
+  @Column()
+  role: number;
 }
