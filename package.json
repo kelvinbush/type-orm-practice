@@ -11,7 +11,7 @@
       "mysql2": "^2.3.3-rc.0",
       "prettier": "^2.4.1",
       "reflect-metadata": "^0.1.10",
-      "typeorm": "0.2.38"
+      "typeorm": "0.3.14"
    },
    "scripts": {
       "start": "ts-node src/index.ts"
